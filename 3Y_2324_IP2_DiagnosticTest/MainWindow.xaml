@@ -1,0 +1,31 @@
+﻿<Window x:Class="_3Y_2324_IP2_DiagnosticTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3Y_2324_IP2_DiagnosticTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lbl1" Content=" - " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl1_MouseEnter" MouseLeave="lbl1_MouseLeave"/>
+        <Label x:Name="lbl2" Content=" - " HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl2_MouseEnter" MouseLeave="lbl2_MouseLeave"/>
+        <Label x:Name="lbl3" Content=" - " HorizontalAlignment="Left" Margin="98,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl3_MouseEnter" MouseLeave="lbl3_MouseLeave"/>
+        <Label x:Name="lbl4" Content=" - " HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl4_MouseEnter" MouseLeave="lbl4_MouseLeave"/>
+        <Label x:Name="lbl5" Content=" - " HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl5_MouseEnter" MouseLeave="lbl5_MouseLeave"/>
+        <Label x:Name="lbl6" Content=" - " HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" MouseEnter="lbl6_MouseEnter" MouseLeave="lbl6_MouseLeave"/>
+        <Button x:Name="btn01" Content="1" HorizontalAlignment="Left" Margin="29,65,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn01_Click"/>
+        <Button x:Name="btn02" Content="1" HorizontalAlignment="Left" Margin="98,65,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn02_Click"/>
+        <Button x:Name="btn03" Content="1" HorizontalAlignment="Left" Margin="175,65,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn03_Click"/>
+        <Button x:Name="btn04" Content="1" HorizontalAlignment="Left" Margin="29,120,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn04_Click"/>
+        <Button x:Name="btn05" Content="1" HorizontalAlignment="Left" Margin="98,120,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn05_Click"/>
+        <Button x:Name="btn06" Content="1" HorizontalAlignment="Left" Margin="175,120,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn06_Click"/>
+        <Button x:Name="btn07" Content="1" HorizontalAlignment="Left" Margin="29,176,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn07_Click"/>
+        <Button x:Name="btn08" Content="1" HorizontalAlignment="Left" Margin="98,175,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn08_Click"/>
+        <Button x:Name="btn09" Content="1" HorizontalAlignment="Left" Margin="175,175,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn09_Click"/>
+        <Button x:Name="btn00" Content="1" HorizontalAlignment="Left" Margin="98,230,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btn00_Click"/>
+        <Label x:Name="lblDebug" Content="lblDebug" HorizontalAlignment="Left" Margin="249,97,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEnter" Content="OK" HorizontalAlignment="Left" Margin="175,230,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btnEnter_Click" IsEnabled="False"/>
+        <Button x:Name="btnClear" Content="C" HorizontalAlignment="Left" Margin="29,230,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" Width="50" Height="50" Click="btnClear_Click"/>
+
+    </Grid>
+</Window>
